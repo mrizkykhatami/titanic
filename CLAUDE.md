@@ -31,7 +31,7 @@
   `tar -xf data/titanic.zip -C data` (atau Expand-Archive di PowerShell)
 - CV lokal: `python -m src.train` | model lain: `python -m src.train --model rf`
 - Push training ke Kaggle: `kaggle kernels push -p kernels/train`
-- Cek status: `kaggle kernels status KAGGLE_USERNAME/titanic-train`
-- Ambil output: `kaggle kernels output KAGGLE_USERNAME/titanic-train -p outputs/kaggle`
+- Cek status: `kaggle kernels status mrizkykhatami/titanic-train`
+- Ambil output: `kaggle kernels output mrizkykhatami/titanic-train -p outputs/kaggle`
 - Submit: `kaggle competitions submit -c titanic -f outputs/<nama>/submission.csv -m "<pesan>"`
 - Lihat skor submission: `kaggle competitions submissions -c titanic`
