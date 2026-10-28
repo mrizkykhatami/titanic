@@ -1,0 +1,26 @@
+# === secrets (JANGAN di-commit) ===
+.env
+*.env
+kaggle.json
+access_token
+*.token
+
+# === data & hasil training (besar, dibuat ulang) ===
+data/
+outputs/
+*.zip
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# === python / jupyter ===
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+.vscode/

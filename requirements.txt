@@ -1,0 +1,11 @@
+# Inti (sudah ada di conda env `kaggle`)
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+kaggle
+kagglehub
+pyyaml
+# Untuk deep learning nanti (Kaggle & Colab sudah menyediakan torch):
+# torch

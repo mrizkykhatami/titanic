@@ -1,0 +1,5 @@
+# Konfigurasi eksperimen. Copy file ini jadi exp002.yaml dst. untuk eksperimen baru.
+name: baseline
+model: hgb          # pilihan: logreg | rf | hgb
+n_splits: 5         # jumlah fold CV
+seed: 42
